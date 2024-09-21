@@ -1,0 +1,57 @@
+
+:root{
+  --color-primary:#6c63ff;
+  --color-success:#00bf8e;
+  --color-warning:#f7c94b;
+  --color-danger:#f75842;
+  --color-danger-variant:rgba(247, 88, 66, 0.4);
+  --color-white:#fff;
+  --color-light:rgba(255, 255, 255, 0.7);
+  --color-black:#000;
+  --color-bg:#1f2541;
+  --color-bg1:#2e3267;
+  --color-bg2:#424890;
+
+  --container-width-lg:80%;
+  --container-width-md:90%;
+  --container-width-sm:94%;
+
+  --transition:all 400ms ease;
+}
+
+body{
+  background: linear-gradient(270deg, #df8908 50.14%, #b415ff 90.25%);
+  color:var(--color-white);
+}
+.btnn{
+  text-align: center;
+  font-size: 1.2rem;
+}
+.btnn:hover{
+  background: transparent;
+  color:var(--color-success);
+  border-color: var(--color-white);
+}
+.delete-btn{
+  display: inline-block;
+  background:var(--color-danger);
+  color: var(--color-white);
+  padding: 8px 10px;
+  border: 1px solid transparent;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  transition:var(--transition)
+}
+
+.delete-btn:hover{
+  background: transparent;
+  color:var(--color-danger);
+  border-color: var(--color-black);
+}
+#book-count{
+  font-size: 1.2rem;
+}
+footer{
+  text-align: center;
+  
+}
