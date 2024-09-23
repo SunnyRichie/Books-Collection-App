@@ -20,7 +20,7 @@
 }
 
 body{
-  background: linear-gradient(270deg, #df8908 50.14%, #b415ff 90.25%);
+  background: #df8908;
   color:var(--color-white);
 }
 .btnn{
